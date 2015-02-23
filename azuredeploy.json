@@ -46,21 +46,33 @@
       "type": "string"
     }
   },
-   "resources": [
+  "resources": [
+    {
+      "name": "[parameters('sqlServerName')]",
+      "type": "Microsoft.Sql/servers",
+      "location": "[parameters('siteLocation')]",
+      "apiVersion": "2.0",
+      "properties": {
+        "administratorLogin": "[parameters('sqlAdministratorLogin')]",
+        "administratorLoginPassword": "[parameters('sqlAdministratorPassword')]"
+      },
+     
+	 "resources": [
         {
           "name": "[parameters('siteName')]",
           "type": "databases",
           "location": "[parameters('siteLocation')]",
           "apiVersion": "2.0",
           "dependsOn": [
-            "[concat('Microsoft.Sql/servers/', 'wa98787662ade-server')]"
+            "[concat('Microsoft.Sql/servers/', parameters('sqlServerName'))]"
           ],
           "properties": {
             "edition": "Web",
             "collation": "SQL_Latin1_General_CP1_CI_AS",
             "maxSizeBytes": "1073741824",
             "requestedServiceObjectiveId": "910b4fcb-8a29-4c3e-958f-f7ba794388b2"
-		 
+			
+          }
         },
         {
           "apiVersion": "2.0",
