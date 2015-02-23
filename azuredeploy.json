@@ -30,9 +30,7 @@
       ],
       "defaultValue": "0"
     },
-    "sqlServerName": {
-      "type": "string"
-    },
+  
     "sqlAdministratorLogin": {
       "type": "string"
     },
@@ -46,16 +44,8 @@
       "type": "string"
     }
   },
-  "resources": [
-    {
-      "name": "[parameters('sqlServerName')]",
-      "type": "Microsoft.Sql/servers",
-      "location": "[parameters('siteLocation')]",
-      "apiVersion": "2.0",
-      "properties": {
-        "administratorLogin": "[parameters('sqlAdministratorLogin')]",
-        "administratorLoginPassword": "[parameters('sqlAdministratorPassword')]"
-      },
+  
+    
       "resources": [
         {
           "name": "[parameters('siteName')]",
@@ -63,7 +53,7 @@
           "location": "[parameters('siteLocation')]",
           "apiVersion": "2.0",
           "dependsOn": [
-            "[concat('Microsoft.Sql/servers/', parameters('sqlServerName'))]"
+            "[concat('Microsoft.Sql/servers/', 'sqlServerName')]"
           ],
           "properties": {
             "edition": "Web",
@@ -85,7 +75,7 @@
           },
           "type": "firewallrules"
         }
-      ]
+       
     },
     {
       "apiVersion": "2014-06-01",
