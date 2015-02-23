@@ -75,7 +75,7 @@
           },
           "type": "firewallrules"
         }
-       
+      ]
     },
     {
       "apiVersion": "2014-06-01",
