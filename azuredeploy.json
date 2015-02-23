@@ -46,11 +46,7 @@
       "type": "string"
     }
   },
-  "resources": [
-    {
-    
-                    },
-     
+   
 	 "resources": [
         {
           "name": "[parameters('siteName')]",
