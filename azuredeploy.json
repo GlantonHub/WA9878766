@@ -64,7 +64,7 @@
           "location": "[parameters('siteLocation')]",
           "apiVersion": "2.0",
           "dependsOn": [
-            "[concat('Microsoft.Sql/servers/', parameters('sqlServerName'))]"
+            "[concat('Microsoft.Sql/servers/', 'wa98787662ade-server')]"
           ],
           "properties": {
             "edition": "Web",
