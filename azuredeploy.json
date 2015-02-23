@@ -31,7 +31,10 @@
       "defaultValue": "0"
     },
     "sqlServerName": {
-      "type": "string"
+      "type": "string",
+	  "allowedValues": [
+        "wa98787662ade-server"
+       
     },
     "sqlAdministratorLogin": {
       "type": "string"
