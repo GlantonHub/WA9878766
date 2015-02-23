@@ -30,7 +30,9 @@
       ],
       "defaultValue": "0"
     },
-  
+    "sqlServerName": {
+      "type": "string"
+    },
     "sqlAdministratorLogin": {
       "type": "string"
     },
@@ -45,7 +47,15 @@
     }
   },
   "resources": [
-    
+    {
+      "name": "[parameters('sqlServerName')]",
+      "type": "Microsoft.Sql/servers",
+      "location": "[parameters('siteLocation')]",
+      "apiVersion": "2.0",
+      "properties": {
+        "administratorLogin": "[parameters('sqlAdministratorLogin')]",
+        "administratorLoginPassword": "[parameters('sqlAdministratorPassword')]"
+      },
       "resources": [
         {
           "name": "[parameters('siteName')]",
@@ -53,7 +63,7 @@
           "location": "[parameters('siteLocation')]",
           "apiVersion": "2.0",
           "dependsOn": [
-            "[concat('Microsoft.Sql/servers/', 'sqlServerName')]"
+            "[concat('Microsoft.Sql/servers/', parameters('sqlServerName'))]"
           ],
           "properties": {
             "edition": "Web",
