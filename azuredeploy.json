@@ -55,7 +55,7 @@
       "properties": {
         "administratorLogin": "[parameters('sqlAdministratorLogin')]",
         "administratorLoginPassword": "[parameters('sqlAdministratorPassword')]"
-      },
+                    },
      
 	 "resources": [
         {
@@ -70,7 +70,9 @@
             "edition": "Web",
             "collation": "SQL_Latin1_General_CP1_CI_AS",
             "maxSizeBytes": "1073741824",
-            "requestedServiceObjectiveId": "910b4fcb-8a29-4c3e-958f-f7ba794388b2"
+            "requestedServiceObjectiveId": "910b4fcb-8a29-4c3e-958f-f7ba794388b2",
+			"administratorLogin": "[parameters('sqlAdministratorLogin')]",
+            "administratorLoginPassword": "[parameters('sqlAdministratorPassword')]"
 			
           }
         },
