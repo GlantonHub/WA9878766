@@ -48,7 +48,7 @@
   },
   "resources": [
     {
-      "name": "[parameters('sqlServerName')]",
+      "name": "sqlServerName",
       "type": "Microsoft.Sql/servers",
       "location": "[parameters('siteLocation')]",
       "apiVersion": "2.0",
