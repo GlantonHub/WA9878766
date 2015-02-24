@@ -1,5 +1,5 @@
 ﻿<portal version="5.0">
-  <description>webadvantage15</description>
+  <description>WebAdvantage11</description>
   <settings>
     <logofile>Images/WAlogo.png</logofile>
     <footertext>Copyright [year] by Glanton</footertext>
@@ -723,10 +723,10 @@
               <webslicettl>0</webslicettl>
               <cultureCode />
               <content type="DNNHTML" version="07.03.04"><![CDATA[&lt;htmltext&gt;&lt;content&gt;&lt;![CDATA[&amp;lt;ul class=&amp;quot;unoslider&amp;quot; id=&amp;quot;slider&amp;quot;&amp;gt;
-    &amp;lt;li&amp;gt; &amp;lt;img alt=&amp;quot;&amp;quot; src=&amp;quot;/portals/2/banner/banner3_01.jpg&amp;quot; /&amp;gt; &amp;lt;/li&amp;gt;
-    &amp;lt;li&amp;gt; &amp;lt;img alt=&amp;quot;&amp;quot; src=&amp;quot;/portals/2/banner/banner3_02.jpg&amp;quot; /&amp;gt; &amp;lt;/li&amp;gt;
-    &amp;lt;li&amp;gt; &amp;lt;img alt=&amp;quot;&amp;quot; src=&amp;quot;/portals/2/banner/banner3_03.jpg&amp;quot; /&amp;gt; &amp;lt;/li&amp;gt;
-    &amp;lt;li&amp;gt; &amp;lt;img alt=&amp;quot;&amp;quot; src=&amp;quot;/portals/2/banner/banner3_04.jpg&amp;quot; /&amp;gt; &amp;lt;/li&amp;gt;
+    &amp;lt;li&amp;gt; &amp;lt;img alt=&amp;quot;&amp;quot; src=&amp;quot;{{PortalRoot}}banner/banner3_01.jpg&amp;quot; /&amp;gt; &amp;lt;/li&amp;gt;
+    &amp;lt;li&amp;gt; &amp;lt;img alt=&amp;quot;&amp;quot; src=&amp;quot;{{PortalRoot}}banner/banner3_02.jpg&amp;quot; /&amp;gt; &amp;lt;/li&amp;gt;
+    &amp;lt;li&amp;gt; &amp;lt;img alt=&amp;quot;&amp;quot; src=&amp;quot;{{PortalRoot}}banner/banner3_03.jpg&amp;quot; /&amp;gt; &amp;lt;/li&amp;gt;
+    &amp;lt;li&amp;gt; &amp;lt;img alt=&amp;quot;&amp;quot; src=&amp;quot;{{PortalRoot}}banner/banner3_04.jpg&amp;quot; /&amp;gt; &amp;lt;/li&amp;gt;
 &amp;lt;/ul&amp;gt;]]&gt;&lt;/content&gt;&lt;/htmltext&gt;]]></content>
               <modulesettings>
                 <modulesetting>
@@ -992,12 +992,12 @@
               <content type="DNNHTML" version="07.03.04"><![CDATA[&lt;htmltext&gt;&lt;content&gt;&lt;![CDATA[&amp;lt;div class=&amp;quot;animation scaleUp3&amp;quot;&amp;gt;
 &amp;lt;div class=&amp;quot;fancybox_style&amp;quot;&amp;gt;
 &amp;lt;ul&amp;gt;
-    &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;/Portals/2/fancy01.jpg&amp;quot; title=&amp;quot;Exciting Title!&amp;quot; class=&amp;quot;fancybox&amp;quot; data-fancybox-group=&amp;quot;group&amp;quot;&amp;gt;&amp;lt;img alt=&amp;quot;&amp;quot; src=&amp;quot;/portals/2/fancy01-thum.jpg&amp;quot; /&amp;gt; &amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
-    &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;/Portals/2/fancy02.jpg&amp;quot; title=&amp;quot;Yup, More Text..&amp;quot; class=&amp;quot;fancybox&amp;quot; data-fancybox-group=&amp;quot;group&amp;quot;&amp;gt;&amp;lt;img alt=&amp;quot;&amp;quot; src=&amp;quot;/portals/2/fancy02-thum.jpg&amp;quot; /&amp;gt; &amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
-    &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;/Portals/2/fancy03.jpg&amp;quot; title=&amp;quot;Yelf Up.&amp;quot; class=&amp;quot;fancybox&amp;quot; data-fancybox-group=&amp;quot;group&amp;quot;&amp;gt;&amp;lt;img alt=&amp;quot;&amp;quot; src=&amp;quot;/portals/2/fancy03-thum.jpg&amp;quot; /&amp;gt; &amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
-    &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;/Portals/2/fancy04.jpg&amp;quot; title=&amp;quot;Bonjour!!&amp;quot; class=&amp;quot;fancybox&amp;quot; data-fancybox-group=&amp;quot;group&amp;quot;&amp;gt;&amp;lt;img alt=&amp;quot;&amp;quot; src=&amp;quot;/portals/2/fancy04-thum.jpg&amp;quot; /&amp;gt; &amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
-    &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;/Portals/2/fancy05.jpg&amp;quot; title=&amp;quot;Exciting Title!&amp;quot; class=&amp;quot;fancybox&amp;quot; data-fancybox-group=&amp;quot;group&amp;quot;&amp;gt;&amp;lt;img alt=&amp;quot;&amp;quot; src=&amp;quot;/portals/2/fancy05-thum.jpg&amp;quot; /&amp;gt; &amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
-    &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;/Portals/2/fancy06.jpg&amp;quot; title=&amp;quot;Yup, More Text..&amp;quot; class=&amp;quot;fancybox&amp;quot; data-fancybox-group=&amp;quot;group&amp;quot;&amp;gt;&amp;lt;img alt=&amp;quot;&amp;quot; src=&amp;quot;/portals/2/fancy06-thum.jpg&amp;quot; /&amp;gt; &amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+    &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;{{PortalRoot}}fancy01.jpg&amp;quot; title=&amp;quot;Exciting Title!&amp;quot; class=&amp;quot;fancybox&amp;quot; data-fancybox-group=&amp;quot;group&amp;quot;&amp;gt;&amp;lt;img alt=&amp;quot;&amp;quot; src=&amp;quot;{{PortalRoot}}fancy01-thum.jpg&amp;quot; /&amp;gt; &amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+    &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;{{PortalRoot}}fancy02.jpg&amp;quot; title=&amp;quot;Yup, More Text..&amp;quot; class=&amp;quot;fancybox&amp;quot; data-fancybox-group=&amp;quot;group&amp;quot;&amp;gt;&amp;lt;img alt=&amp;quot;&amp;quot; src=&amp;quot;{{PortalRoot}}fancy02-thum.jpg&amp;quot; /&amp;gt; &amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+    &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;{{PortalRoot}}fancy03.jpg&amp;quot; title=&amp;quot;Yelf Up.&amp;quot; class=&amp;quot;fancybox&amp;quot; data-fancybox-group=&amp;quot;group&amp;quot;&amp;gt;&amp;lt;img alt=&amp;quot;&amp;quot; src=&amp;quot;{{PortalRoot}}fancy03-thum.jpg&amp;quot; /&amp;gt; &amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+    &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;{{PortalRoot}}fancy04.jpg&amp;quot; title=&amp;quot;Bonjour!!&amp;quot; class=&amp;quot;fancybox&amp;quot; data-fancybox-group=&amp;quot;group&amp;quot;&amp;gt;&amp;lt;img alt=&amp;quot;&amp;quot; src=&amp;quot;{{PortalRoot}}fancy04-thum.jpg&amp;quot; /&amp;gt; &amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+    &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;{{PortalRoot}}fancy05.jpg&amp;quot; title=&amp;quot;Exciting Title!&amp;quot; class=&amp;quot;fancybox&amp;quot; data-fancybox-group=&amp;quot;group&amp;quot;&amp;gt;&amp;lt;img alt=&amp;quot;&amp;quot; src=&amp;quot;{{PortalRoot}}fancy05-thum.jpg&amp;quot; /&amp;gt; &amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+    &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;{{PortalRoot}}fancy06.jpg&amp;quot; title=&amp;quot;Yup, More Text..&amp;quot; class=&amp;quot;fancybox&amp;quot; data-fancybox-group=&amp;quot;group&amp;quot;&amp;gt;&amp;lt;img alt=&amp;quot;&amp;quot; src=&amp;quot;{{PortalRoot}}fancy06-thum.jpg&amp;quot; /&amp;gt; &amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
 &amp;lt;/ul&amp;gt;
 &amp;lt;/div&amp;gt;
 &amp;lt;/div&amp;gt;]]&gt;&lt;/content&gt;&lt;/htmltext&gt;]]></content>
@@ -8918,6 +8918,332 @@ posuere cubilia Curae; Praesent eu lacus diam. Vestibulum ut sem odio, eu sollic
           <height>50</height>
           <size>7318</size>
           <width>200</width>
+        </file>
+      </files>
+    </folder>
+    <folder>
+      <folderpath>banner/</folderpath>
+      <storagelocation>0</storagelocation>
+      <folderpermissions>
+        <permission>
+          <permissioncode>SYSTEM_FOLDER</permissioncode>
+          <permissionkey>READ</permissionkey>
+          <rolename>All Users</rolename>
+          <allowaccess>true</allowaccess>
+        </permission>
+        <permission>
+          <permissioncode>SYSTEM_FOLDER</permissioncode>
+          <permissionkey>READ</permissionkey>
+          <rolename>Administrators</rolename>
+          <allowaccess>true</allowaccess>
+        </permission>
+        <permission>
+          <permissioncode>SYSTEM_FOLDER</permissioncode>
+          <permissionkey>WRITE</permissionkey>
+          <rolename>Administrators</rolename>
+          <allowaccess>true</allowaccess>
+        </permission>
+        <permission>
+          <permissioncode>SYSTEM_FOLDER</permissioncode>
+          <permissionkey>BROWSE</permissionkey>
+          <rolename>All Users</rolename>
+          <allowaccess>true</allowaccess>
+        </permission>
+        <permission>
+          <permissioncode>SYSTEM_FOLDER</permissioncode>
+          <permissionkey>BROWSE</permissionkey>
+          <rolename>Administrators</rolename>
+          <allowaccess>true</allowaccess>
+        </permission>
+      </folderpermissions>
+      <files>
+        <file>
+          <contenttype>image/png</contenttype>
+          <extension>png</extension>
+          <filename>banner1_button.png</filename>
+          <height>56</height>
+          <size>2167</size>
+          <width>143</width>
+        </file>
+        <file>
+          <contenttype>image/png</contenttype>
+          <extension>png</extension>
+          <filename>banner1_pic1.png</filename>
+          <height>346</height>
+          <size>148064</size>
+          <width>628</width>
+        </file>
+        <file>
+          <contenttype>image/png</contenttype>
+          <extension>png</extension>
+          <filename>banner1_pic2.png</filename>
+          <height>256</height>
+          <size>78225</size>
+          <width>326</width>
+        </file>
+        <file>
+          <contenttype>image/png</contenttype>
+          <extension>png</extension>
+          <filename>banner1_pic3.png</filename>
+          <height>201</height>
+          <size>21659</size>
+          <width>128</width>
+        </file>
+        <file>
+          <contenttype>image/png</contenttype>
+          <extension>png</extension>
+          <filename>banner1_text.png</filename>
+          <height>122</height>
+          <size>7394</size>
+          <width>391</width>
+        </file>
+        <file>
+          <contenttype>image/png</contenttype>
+          <extension>png</extension>
+          <filename>banner1_title.png</filename>
+          <height>57</height>
+          <size>3499</size>
+          <width>361</width>
+        </file>
+        <file>
+          <contenttype>image/png</contenttype>
+          <extension>png</extension>
+          <filename>banner2_01.png</filename>
+          <height>450</height>
+          <size>16757</size>
+          <width>1140</width>
+        </file>
+        <file>
+          <contenttype>image/png</contenttype>
+          <extension>png</extension>
+          <filename>banner2_02.png</filename>
+          <height>450</height>
+          <size>43766</size>
+          <width>1140</width>
+        </file>
+        <file>
+          <contenttype>image/png</contenttype>
+          <extension>png</extension>
+          <filename>banner2_03.png</filename>
+          <height>450</height>
+          <size>81901</size>
+          <width>1140</width>
+        </file>
+        <file>
+          <contenttype>image/png</contenttype>
+          <extension>png</extension>
+          <filename>banner2_04.png</filename>
+          <height>450</height>
+          <size>148932</size>
+          <width>1140</width>
+        </file>
+        <file>
+          <contenttype>image/png</contenttype>
+          <extension>png</extension>
+          <filename>banner2_left_1.png</filename>
+          <height>450</height>
+          <size>15196</size>
+          <width>1140</width>
+        </file>
+        <file>
+          <contenttype>image/png</contenttype>
+          <extension>png</extension>
+          <filename>banner2_left_2.png</filename>
+          <height>450</height>
+          <size>43457</size>
+          <width>1140</width>
+        </file>
+        <file>
+          <contenttype>image/png</contenttype>
+          <extension>png</extension>
+          <filename>banner2_left_3.png</filename>
+          <height>450</height>
+          <size>81509</size>
+          <width>1140</width>
+        </file>
+        <file>
+          <contenttype>image/png</contenttype>
+          <extension>png</extension>
+          <filename>banner2_left_4.png</filename>
+          <height>450</height>
+          <size>146673</size>
+          <width>1140</width>
+        </file>
+        <file>
+          <contenttype>image/png</contenttype>
+          <extension>png</extension>
+          <filename>banner2_pic1.png</filename>
+          <height>400</height>
+          <size>148191</size>
+          <width>475</width>
+        </file>
+        <file>
+          <contenttype>image/png</contenttype>
+          <extension>png</extension>
+          <filename>banner2_text.png</filename>
+          <height>70</height>
+          <size>3499</size>
+          <width>480</width>
+        </file>
+        <file>
+          <contenttype>image/png</contenttype>
+          <extension>png</extension>
+          <filename>banner2_title.png</filename>
+          <height>105</height>
+          <size>5983</size>
+          <width>480</width>
+        </file>
+        <file>
+          <contenttype>image/jpeg</contenttype>
+          <extension>jpg</extension>
+          <filename>banner3_01.jpg</filename>
+          <height>440</height>
+          <size>456356</size>
+          <width>1600</width>
+        </file>
+        <file>
+          <contenttype>image/jpeg</contenttype>
+          <extension>jpg</extension>
+          <filename>banner3_02.jpg</filename>
+          <height>440</height>
+          <size>198703</size>
+          <width>1600</width>
+        </file>
+        <file>
+          <contenttype>image/jpeg</contenttype>
+          <extension>jpg</extension>
+          <filename>banner3_03.jpg</filename>
+          <height>440</height>
+          <size>273568</size>
+          <width>1600</width>
+        </file>
+        <file>
+          <contenttype>image/jpeg</contenttype>
+          <extension>jpg</extension>
+          <filename>banner3_04.jpg</filename>
+          <height>440</height>
+          <size>234926</size>
+          <width>1600</width>
+        </file>
+        <file>
+          <contenttype>image/png</contenttype>
+          <extension>png</extension>
+          <filename>banner3_icon01.png</filename>
+          <height>70</height>
+          <size>9891</size>
+          <width>70</width>
+        </file>
+        <file>
+          <contenttype>image/png</contenttype>
+          <extension>png</extension>
+          <filename>banner3_icon02.png</filename>
+          <height>70</height>
+          <size>11431</size>
+          <width>70</width>
+        </file>
+        <file>
+          <contenttype>image/png</contenttype>
+          <extension>png</extension>
+          <filename>banner3_icon03.png</filename>
+          <height>70</height>
+          <size>12938</size>
+          <width>70</width>
+        </file>
+        <file>
+          <contenttype>image/png</contenttype>
+          <extension>png</extension>
+          <filename>banner3_icon04.png</filename>
+          <height>70</height>
+          <size>11934</size>
+          <width>70</width>
+        </file>
+        <file>
+          <contenttype>image/png</contenttype>
+          <extension>png</extension>
+          <filename>banner3_icon05.png</filename>
+          <height>70</height>
+          <size>14219</size>
+          <width>70</width>
+        </file>
+        <file>
+          <contenttype>image/png</contenttype>
+          <extension>png</extension>
+          <filename>banner3_pic1.png</filename>
+          <height>380</height>
+          <size>84920</size>
+          <width>656</width>
+        </file>
+        <file>
+          <contenttype>image/png</contenttype>
+          <extension>png</extension>
+          <filename>banner3_pic2.png</filename>
+          <height>221</height>
+          <size>48927</size>
+          <width>411</width>
+        </file>
+        <file>
+          <contenttype>image/png</contenttype>
+          <extension>png</extension>
+          <filename>banner3_title1.png</filename>
+          <height>170</height>
+          <size>4652</size>
+          <width>300</width>
+        </file>
+        <file>
+          <contenttype>image/png</contenttype>
+          <extension>png</extension>
+          <filename>banner3_title2.png</filename>
+          <height>140</height>
+          <size>4603</size>
+          <width>300</width>
+        </file>
+        <file>
+          <contenttype>image/jpeg</contenttype>
+          <extension>jpg</extension>
+          <filename>banner4_01.jpg</filename>
+          <height>390</height>
+          <size>298886</size>
+          <width>1140</width>
+        </file>
+        <file>
+          <contenttype>image/jpeg</contenttype>
+          <extension>jpg</extension>
+          <filename>banner4_02.jpg</filename>
+          <height>390</height>
+          <size>175820</size>
+          <width>1140</width>
+        </file>
+        <file>
+          <contenttype>image/jpeg</contenttype>
+          <extension>jpg</extension>
+          <filename>banner4_03.jpg</filename>
+          <height>390</height>
+          <size>215541</size>
+          <width>1140</width>
+        </file>
+        <file>
+          <contenttype>image/png</contenttype>
+          <extension>png</extension>
+          <filename>banner4_pic.png</filename>
+          <height>400</height>
+          <size>147808</size>
+          <width>264</width>
+        </file>
+        <file>
+          <contenttype>image/png</contenttype>
+          <extension>png</extension>
+          <filename>banner4_text.png</filename>
+          <height>100</height>
+          <size>6265</size>
+          <width>600</width>
+        </file>
+        <file>
+          <contenttype>image/png</contenttype>
+          <extension>png</extension>
+          <filename>banner4_title.png</filename>
+          <height>110</height>
+          <size>6393</size>
+          <width>570</width>
         </file>
       </files>
     </folder>
