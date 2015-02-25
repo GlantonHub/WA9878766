@@ -1,0 +1,237 @@
+@charset "utf-8";
+/* CSS Document */
+.socialprofile_content { padding:30px 20px 20px; min-height:350px; }
+.socialprofile_content h1{ font:bold 18px/22px;  color:#333333; }
+.socialprofile_content h2{ font:bold 15px/19px;  color:#333333; }
+.socialprofile_content h3{ font:bold 14px/18px;  color:#333333; }
+.socialprofile_content h4{ font:bold 13px/16px;  color:#333333; }
+
+.threeColSocial {position:relative;}
+.SocialLeftPane, .SocialCenterPane,.SocialRightPane{position:relative;float:left;z-index:1;}
+.SocialLeftPane:hover, .SocialCenterPane:hover,.SocialRightPane:hover{z-index:2;}
+.SocialLeftPane{ padding-left:0; margin-right:15px;width:100px; }
+.SocialCenterPane{width:770px;margin-right:15px;}
+.SocialRightPane{width:190px;padding-right:0;}
+
+/* social input */
+.socialprofile_content input[type="text"], .socialprofile_content select, .socialprofile_content textarea, .socialprofile_content input[type="email"], .socialprofile_content input[type="search"], .socialprofile_content input[type="password"] {background: #F3F3F3;border: 1px solid #ddd;border-radius: 0;box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.8), 0 1px 2px 0 rgba(0, 0, 0, 0.05) inset; color: #666666;font-size: 13px; margin-bottom: 20px;padding: 9px;}
+.SocialRightPane .dnnMemberDirectory .mdSearchBar input[type="text"] { width:100%!important;}
+
+ /* ----------------------------------*/
+ /* DNN Module:Console */
+ /* ----------------------------------*/
+.threeColSocial .console{width:190px!important;height:auto;background-color:#484848;/* Menu Background Color */
+}
+.threeColSocial .console-none div{cursor:pointer;cursor:hand;float:left;height:auto;width:190px;padding:0px;margin:0px;text-align:left;}
+.threeColSocial .console-none h3{padding:10px 8px 10px 25px;margin:0;border-bottom:solid 1px #fff;background:url('images/arrow.png') 10px center no-repeat;color:#eee;font-size:13px;line-height:1;font-weight:bold;}
+.threeColSocial .console-none div div{display:none;}
+.threeColSocial .console-mouseon{background-color:#898989;/* Menu Hover Background Color */}
+/* ----------------------------------*/
+/* DNN Module:ViewProfile Image */
+/* ----------------------------------*/
+#UserProfileImg img{width:92px;padding:3px;height:auto;border:1px solid #CCCCCC;border-radius:5px;}
+.threeColSocial .UserProfileControls ul{margin:15px 0;}
+.threeColSocial .UserProfileControls ul li{list-style-type:none;margin-bottom:3px; font-weight:bold;}
+/* ----------------------------------*/
+/* DNN Module:Member Directory (Send A Message,Follow,Subscribe) */
+/* ----------------------------------*/
+.SocialRightPane .DnnModule #mdMemberList{margin:0 0 20px 0;}
+.SocialRightPane ul#mdMemberList {margin:10px 0 0 0;width:100%;}
+.SocialRightPane #mdMemberList li{margin-bottom:0;list-style-type:none;}
+.SocialRightPane #mdMemberList > li{width:100%;margin:0;padding:10px 15px 10px 0;background:#e7e7e7;border:none;-webkit-border-radius:0;border-radius:0;-webkit-transition:background 0.15s ease-in-out;-moz-transition:background 0.15s ease-in-out;-o-transition:background 0.15s ease-in-out;-ms-transition:background 0.15s ease-in-out;transition:background 0.15s ease-in-out;-webkit-box-shadow:0px 0px 0px 0px rgba(0,0,0,0.3);box-shadow:0px 0px 0px 0px rgba(0,0,0,0.3);}
+.SocialRightPane #mdMemberList > li:hover{z-index:2;/*bring current li to top for tooltip */
+ background:#f7f7f7;-webkit-box-shadow:0px 0px 0px 0px rgba(0,0,0,0.3),inset 0px 0px 0px 0px rgba(255,255,255,1);box-shadow:0px 0px 0px 0px rgba(0,0,0,0.3),inset 0px 0px 0px 0px rgba(255,255,255,1);}
+/* ----------------------------------*/
+/* DNN Module:ViewProfile (Activity Feed) */
+/* ----------------------------------*/
+.threeColSocial .journalTools{max-width:95%; margin-bottom:20px;}
+.threeColSocial .journalrow{padding-bottom:10px;border-bottom:solid 1px #c0c0c0;margin-bottom:20px;}
+.threeColSocial .journalfooter{padding:0;margin:0;}
+.threeColSocial .journalrow div.journalitem p.journalfooter{font-size:12px;padding:0;margin-bottom:0;}
+.threeColSocial .journalrow div.journalitem ul.jcmt{font-size:12px;}
+.threeColSocial .journalrow div.journalitem .likes{padding:2px 5px;background-color:#dbdbdb;}
+#journalEditor #journalContent .juser,.journalrow .juser{border:none;color:#333;background-color:transparent;}
+/* ----------------------------------*/
+/* DNN Module:ViewProfile (Message) */
+/* ----------------------------------*/
+.threeColSocial #UserDisplayNameHeader h2{padding-bottom:10px;border-bottom:solid 1px #c0c0c0;}
+/* dnnAdminTabNav Style*/
+.threeColSocial #smMainContent .ui-corner-all{border-radius:0;}
+.threeColSocial ul.dnnAdminTabNav{height:40px;margin-top:0;margin-bottom:0;border-bottom:1px solid #c0c0c0;}
+.threeColSocial ul.dnnAdminTabNav li{margin-right:1px;}
+.threeColSocial ul.dnnAdminTabNav li a{padding:10px 15px;margin-bottom:0px;border:none;background:#999;-webkit-border-radius:1px 1px 0px 0px;border-radius:1px 1px 0px 0px;-webkit-border-radius:0px;border-radius:0px;color:#fff;font-size:12px;font-weight:bold;text-shadow:none;}
+.threeColSocial ul.dnnAdminTabNav li a:hover{background:#484848;color:#eee;}
+.threeColSocial ul.dnnAdminTabNav li.ui-tabs-selected a{padding:10px 15px;margin-top:0px;background:#484848;color:#eee;}
+.threeColSocial ul.dnnAdminTabNav li.ui-tabs-active a {margin-top:0;}
+/* Message & Notification number block*/
+.threeColSocial .dnnAdminTabNav a span{display:inline;min-height:12px;padding:2px 6px;margin-right:8px;background: rgb(31,152,241);
+/*CSS3*/	
+background: -moz-linear-gradient(top, rgba(31,152,241,1) 0%, rgba(2,111,196,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(31,152,241,1)), color-stop(100%,rgba(2,111,196,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(31,152,241,1) 0%,rgba(2,111,196,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(31,152,241,1) 0%,rgba(2,111,196,1) 100%); /* Opera 11.10+ */
+background: linear-gradient(top, rgba(31,152,241,1) 0%,rgba(2,111,196,1) 100%); /* W3C */		
+ -webkit-box-shadow:0px 1px 0px 0px #666;-moz-box-shadow:0px 1px 0px 0px #666;box-shadow:0px 1px 0px 0px #666;color:#eee;font-weight:normal;font-size:11px;}
+/* Compose new message link */
+.threeColSocial .dnnFormExpandContent{float:right;display:inline-block;position:absolute;top:22px;right:0;height:20px;font-size:12px;}
+.threeColSocial .dnnFormExpandContent a.ComposeMessage{font-size:12px;}
+/* compose button */
+.threeColSocial a.dnnPrimaryAction{display:inline-block;padding:12px 20px;margin-bottom:5px;background:#898989;-moz-border-radius:0px;-webkit-border-radius:0px;border-radius:0px;border:0px solid #ffffff;-moz-box-shadow:0px 1px 3px rgba(240,240,240,0.5),inset 0px 0px 0px rgba(15,177,217,0);-webkit-box-shadow:0px 1px 3px rgba(240,240,240,0.5),inset 0px 0px 0px rgba(15,177,217,0);box-shadow:0px 1px 3px rgba(240,240,240,0.5),inset 0px 0px 0px rgba(15,177,217,0);font-size:12px;font-weight:bold;line-height:1;text-align:center;color:#ffffff;text-shadow:0px 0px 0px rgba(000,000,000,0),0px 0px 0px rgba(255,255,255,0);}
+.threeColSocial a.dnnPrimaryAction:hover,.threeColSocial a.dnnPrimaryAction:active{cursor:pointer;cursor:hand;background-image:none;background-color:#D00;}
+/* Message Control (Select,Actions,Inbox,Sent,Archived)*/
+.threeColSocial .DnnModule .messageControls .dnnButtonGroup{margin-right:0px;/* fixed Archived Button spacinging issue */
+}
+.threeColSocial .messageControls{margin:0;padding:0;padding-bottom:5px;border-bottom:1px solid #c0c0c0;}
+.threeColSocial .messageControls .messageFolders{float:right;}
+.threeColSocial .messageControls ul.dnnButtonGroup a.active span { color:#fff; }
+/* number x-x of x */
+.threeColSocial .messageFolders p{float:left;display:inline-block;padding:8px 15px;margin:0;color:#666;font-size:12px;}
+.threeColSocial .messageFolders p strong{color:#666;font-weight:bold;}
+/* Messages / Notification Specific Button Styles -------------------------------------*/
+ /* Style for the Action menu bar*/
+.threeColSocial .DnnModule-Messaging-Notifications .dnnTertiaryAction{width:auto!important;padding:9px 10px;font-size:12px;}
+/* Styles for select drop*/
+.threeColSocial .DnnModule .selectDrop ul{top:34px;min-width:120px;padding:10px 14px!important;border:1px solid #c2c2c2;background:#e7e7e7;/*CSS3*/
+ -moz-border-radius-bottomright:0px;-moz-border-radius-bottomleft:0px;-webkit-border-radius:0px 0px 0px 0px;border-radius:0px 0px 0px 0px;-webkit-box-shadow:0px 0px 2px 0px rgba(0,0,0,.1);-moz-box-shadow:0px 0px 2px 0px rgba(0,0,0,.1);box-shadow:0px 0px 2px 0px rgba(0,0,0,.1);}
+/* Styles for select button on active state*/
+.threeColSocial .selectDrop.active > a{background:#898989;color:#eee;border-right:solid 0px #333;-webkit-box-shadow:inset 0px 1px 1px 0px #333;-moz-box-shadow:inset 0px 1px 1px 0px #333;box-shadow:inset 0px 1px 1px 0px #333;}
+.threeColSocial .selectDrop.active > a span, .threeColSocial .selectDrop.active > a:hover span { color:#fff;}
+/* when select drop down button is clicked toggle active class to show*/
+.threeColSocial .selectDrop ul li{margin-bottom:3px;font-size:12px;}
+/* Remove corners and add dividers to buttons in button group */
+.threeColSocial .dnnButtonGroup{background:transparent;-webkit-border-radius:0;border-radius:0;-webkit-box-shadow:none;box-shadow:none;border:none;list-style:none;}
+.threeColSocial ul.dnnButtonGroup > li{border-left:none;}
+.threeColSocial .dnnButtonGroup > li > a{border-left:1px solid #ddd;/*light*/
+ border-right:1px solid #bbb;/*dark*/
+ background-color:#d7d7d7;color:#666;}
+/* Conversations button selected*/
+ .threeColSocial .dnnButtonGroup > li > a.active{color:#eee;border-right:1px solid #898989;background-color:#898989;}
+/* Actions button hover*/
+ .threeColSocial .dnnButtonGroup > li > a.disabled:hover{color:#eee;border-left:1px solid #898989;background-color:#898989;}
+/* Select button hover */
+ .threeColSocial .alpha > a:hover{color:#eee;background-color:#898989;border-right:1px solid #898989;}
+/*First Button styles of a button group */
+ .threeColSocial .alpha > a,.threeColSocial .alpha > a:hover,.threeColSocial .alpha > a.active{border-left:1px solid #898989;/*CSS3*/
+ -moz-border-radius-topleft:0;-moz-border-radius-bottomleft:0;-webkit-border-radius:0;border-radius:0;}
+/*Last Button styles of a button group */
+ .threeColSocial .omega > a,.threeColSocial .omega > a:active,.threeColSocial .omega > a.active{border-right:none;/*CSS3*/
+ -moz-border-radius-topright:0;-moz-border-radius-bottomright:0;-webkit-border-radius:0;border-radius:0;}
+/* Archive Button */
+ .threeColSocial a.dnnSecondaryAction.ArchiveItems span{display:none;/* hide Archive text*/
+}
+.threeColSocial a.dnnSecondaryAction.ArchiveItems{height:21px;min-width:15px;margin-left:5px;background:#d7d7d7 url('images/icon_bin.png') no-repeat center center;border-radius:0;-webkit-box-shadow:none;text-shadow:none;box-shadow:none;color:#666;border:none;}
+.threeColSocial a.dnnSecondaryAction.ArchiveItems:hover{background:#898989 url('images/icon_bin.png') no-repeat center center;}
+/*Archive,Sent,Archived buttons Hover*/
+ .threeColSocial .dnnTertiaryAction:hover,a.dnnTertiaryAction:hover{background-color:#898989;color:#000;}
+/* Messages / Notification List Item -------------------------------------*/
+ /* Listing Styles */
+ .threeColSocial .smListings{font-size:12px;}
+.threeColSocial .DnnModule .smListings ul{margin:0;}
+.threeColSocial .smListings > ul > li{padding-top:10px;margin:0;background:transparent;border-bottom:1px solid #c0c0c0;}
+.threeColSocial .smListings > ul > li.active{background:#f4f4f4;/* background color for active list items*/
+}
+.threeColSocial .smListings > ul > li:last-child{border-bottom:none;}
+.threeColSocial .smListings [class^="ListCol-"]{padding:1% 1% 1% 0;}
+.threeColSocial .DnnModule-Messaging-Notifications .smListings .ListCol-1{min-width:20px;/* Main message list:Checkbox column width on */
+}
+.threeColSocial .DnnModule-Messaging-Notifications .smListings .ListCol-2{min-width:65px;/* Main message list:Avatar column width AND Drilldown message list:Message info column width*/
+}
+.threeColSocial .DnnModule-Messaging-Notifications .smListings .ListCol-3{width:50%;/* Main message list:Message info column width AND Drilldown message list:Time column width */
+}
+.threeColSocial .DnnModule-Messaging-Notifications .smListings .ListCol-4{font-size:11px;/* Main message list:Time column */
+}
+.threeColSocial .smTimeStamped{font-size:11px;}
+.threeColSocial .DnnModule-Messaging-Details .smListings .ListCol-1{min-width:65px;/* Drilldown message list:Avatar column width*/
+}
+.threeColSocial .DnnModule-Messaging-Details .smListings .ListCol-2{width:50%;/* Drilldown message list:Message info column width*/
+}
+.threeColSocial .DnnModule-Messaging-Details .smListings .ListCol-3{float:right;/* Drilldown message list:Time column */
+ width:25%;font-size:12px;}
+.threeColSocial .hoverControls a{font-size:12px;/* All lists:Archive & Reply links */
+ font-weight:bold;}
+.threeColSocial .DnnModule-Messaging-Details .smListings .profileImg{display:block;/* Drilldown message list:Avatar column style */
+ padding:5px;width:50px;height:auto;background:#fff;border:1px solid #e2e2e2;/*CSS3*/
+ -webkit-border-radius:2px;-moz-border-radius:2px;border-radius:2px;}
+.threeColSocial .DnnModule-Messaging-Details .smListings .profileImg span{display:block;/* Drilldown message list:Avatar column style */
+ width:50px;max-height:50px;overflow:hidden;}
+.threeColSocial .DnnModule-Messaging-Details .smListings .profileImg:hover{border:solid 1px #d7d7d7;/* Drilldown message list:Avatar column style */
+}
+.threeColSocial .DnnModule-Messaging-Notifications .smListings .profileImg{padding:4px;/* All lists:Avatar style */
+ width:50px;height:auto;background:#fff;border:1px solid #d7d7d7;/*CSS3*/
+ -webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;}
+.threeColSocial .DnnModule-Messaging-Notifications .smListings .profileImg span{width:50px;/* All lists:Avatar style */
+ max-height:50px;overflow:hidden;}
+.threeColSocial .DnnModule-Messaging-Notifications .smListings .profileImg img{min-width:50px;/* All lists:Avatar style */
+}
+.threeColSocial .DnnModule-Messaging-Notifications .smListings .profileImg:hover{background:#d7d7d7;/* All lists:Avatar hover style */
+}
+.threeColSocial .DnnModule-Messaging-Details .smListings .meta{margin-bottom:5px;/* Drilldown message list:UserName link */
+}
+.threeColSocial .DnnModule-Messaging-Details .smListings .meta a{font-weight:bold;/* Drilldown message list:UserName link */
+}
+.threeColSocial .DnnModule-Messaging-Details .smListings .message{color:#999;/* Drilldown message list:Message text */
+ margin:0;}
+.threeColSocial .DnnModule-Messaging-Notifications .smListings .subject{font-weight:bold;}
+.threeColSocial .DnnModule-Messaging-Notifications .smListings .active .subject{font-size:13px;/* All lists:unread message subject */
+ margin-bottom:3px;}
+.threeColSocial .DnnModule-Messaging-Notifications .smListings .meta{margin-bottom:8px;/* All lists:message From - Send to */
+ line-height:14px;}
+.threeColSocial .DnnModule-Messaging-Notifications .smListings .message{color:#999;/* All lists:Message text */
+}
+/*Column 3 Styles*/
+ .threeColSocial .DnnModule-Messaging-Details .smListings .ListCol-3 ul li{margin-bottom:0px;/* Drilldown message list:Time column */
+}
+.threeColSocial .DnnModule-Messaging-Details .smListings .ListCol-3 ul li:first-child{color:#999;/* Drilldown message list:Time column */
+}
+.threeColSocial .DnnModule-Messaging-Details .smListings .active .ActiveToggle:hover,.smListings .ActiveToggle{margin-left:8px;/* Main message list:Time column-Mark as Read block */
+ -webkit-box-shadow:0px 1px 0px 0px #666;-moz-box-shadow:0px 1px 0px 0px #666;box-shadow:0px 1px 0px 0px #666;}
+.threeColSocial .DnnModule-Messaging-Details .smListings .active .ActiveToggle,.smListings .ActiveToggle:hover{margin-left:8px;/* Main message list:Time column-Mark as Read block hover */
+ background:rgb(59,150,182);/* Old browsers */
+ /*CSS3*/
+ background:-moz-linear-gradient(top,rgba(59,150,182,1) 0%,rgba(35,125,155,1) 100%);/* FF3.6+ */
+ background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,rgba(59,150,182,1)),color-stop(100%,rgba(35,125,155,1)));/* Chrome,Safari4+ */
+ background:-webkit-linear-gradient(top,rgba(59,150,182,1) 0%,rgba(35,125,155,1) 100%);/* Chrome10+,Safari5.1+ */
+ background:-o-linear-gradient(top,rgba(59,150,182,1) 0%,rgba(35,125,155,1) 100%);/* Opera 11.10+ */
+ background:linear-gradient(top,rgba(59,150,182,1) 0%,rgba(35,125,155,1) 100%);/* W3C */
+ -webkit-box-shadow:0px 1px 0px 0px #666;-moz-box-shadow:0px 1px 0px 0px #666;box-shadow:0px 1px 0px 0px #666;}
+/*Column 4 Styles*/
+ .threeColSocial .DnnModule-Messaging-Notifications .smListings .ListCol-4 ul li{margin-bottom:0px;/* All lists:Time column */
+}
+.threeColSocial .DnnModule-Messaging-Notifications .smListings .ListCol-4 ul li:first-child{color:#999;/* All lists:Time column */
+}
+.threeColSocial .DnnModule-Messaging-Notifications .smListings .active .ActiveToggle:hover,.smListings .ActiveToggle{margin-left:8px;/* Main message list:Time column-Mark as Read block */
+ -webkit-box-shadow:0px 1px 0px 0px #666;-moz-box-shadow:0px 1px 0px 0px #666;box-shadow:0px 1px 0px 0px #666;}
+.threeColSocial .DnnModule-Messaging-Notifications .smListings .active .ActiveToggle,.smListings .ActiveToggle:hover{margin-left:8px;/* Main message list:Time column-Mark as Read block hover*/
+ background:rgb(59,150,182);/* Old browsers */
+ /*CSS3*/
+ background:-moz-linear-gradient(top,rgba(59,150,182,1) 0%,rgba(35,125,155,1) 100%);/* FF3.6+ */
+ background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,rgba(59,150,182,1)),color-stop(100%,rgba(35,125,155,1)));/* Chrome,Safari4+ */
+ background:-webkit-linear-gradient(top,rgba(59,150,182,1) 0%,rgba(35,125,155,1) 100%);/* Chrome10+,Safari5.1+ */
+ background:-o-linear-gradient(top,rgba(59,150,182,1) 0%,rgba(35,125,155,1) 100%);/* Opera 11.10+ */
+ background:linear-gradient(top,rgba(59,150,182,1) 0%,rgba(35,125,155,1) 100%);/* W3C */
+ -webkit-box-shadow:0px 1px 0px 0px #666;-moz-box-shadow:0px 1px 0px 0px #666;box-shadow:0px 1px 0px 0px #666;}
+.threeColSocial .DnnModule-Messaging-Notifications .notificationControls{font-weight:bold;/* Main notifications list:Follow back & Dismiss links */
+}
+/* Message Header (subject & back button) -------------------------------------*/
+ .threeColSocial .messageHeader{padding:0;margin:0;}
+.threeColSocial .messageHeader p{font-size:13px;color:#666;float:left;}
+.threeColSocial .messageHeader p strong{color:#333;}
+.threeColSocial .messageHeader .returnLink{font-size:12px;font-weight:bold;}
+/* Show Previous Repies -------------------------------------*/
+.threeColSocial .morePrevMsgButton{color:#666;font-size:12px;text-align:center;padding:10px;margin-bottom:15px;border:solid 1px #c0c0c0;background:#d7d7d7;-webkit-box-shadow:inset 0px 0px 3px 0px #ccc;-moz-box-shadow:inset 0px 0px 3px 0px #ccc;box-shadow:inset 0px 0px 3px 0px #ccc;}
+/* Reply Form -------------------------------------*/
+.threeColSocial textarea#replyMessage{width:94%;height:75px;color:#666;border:1px solid #c0c0c0;background:#f4f4f4;}
+.threeColSocial textarea#replyMessage:focus,.threeColSocial textarea#replyMessage:active{color:#666;background:#fff;}
+.threeColSocial  .DnnModule .messageControls .buttonGroup {margin-right:0; padding-left: 0;}
+
+@media handheld, only screen and (max-width: 1140px){
+.SocialLeftPane{ margin-right:10px;}
+.SocialCenterPane{width:410px;margin-right:10px;}
+}
+
+@media handheld, only screen and (max-width: 767px){
+.SocialLeftPane{ padding-left:0; margin-right:20px;width:100px; min-height:260px;}
+.SocialCenterPane{width:100%;margin:0;}
+.SocialRightPane .DnnModule #mdMemberList { margin-bottom:10px;}
+.SocialRightPane{width:190px;padding-right:0; position:absolute; top:0; right:0; }
+}
